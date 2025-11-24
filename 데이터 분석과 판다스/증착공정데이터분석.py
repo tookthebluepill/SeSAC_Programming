@@ -26,4 +26,4 @@ print(df.head)
 
 #새롭게 계산된 데이터를 다시 CSV 파일 형태로 저장
 #encoding='utf-8-sig' : 파일의 한글이나 특수 문자가 깨지지 않도록 안전하게 저장
-df
+df.to_csv('03_wafer_receipe_2.csv', index=False, encoding='utf-8-sig')
