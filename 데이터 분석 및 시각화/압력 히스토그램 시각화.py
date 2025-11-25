@@ -11,11 +11,29 @@ print(good_pressure.head())
 bad_pressure = df[df['result'] == 'Bad']['pressure']
 print(bad_pressure.head())
 
-#히스토그램 그리기
+#좋은 웨이퍼 히스토그램 그리기
 plt.figure(figsize=(12, 6))
 sns.histplot(
     good_pressure,
     bins=20,
     kde=True,
-    alpha=
+    alpha=0.6,
+    label='Good',
+    color='green'
 )
+
+#나쁜 웨이퍼 히스토그램 그리기
+sns.histplot(
+    bad_pressure,
+    bins=20,
+    kde=True,
+    alpha=0.6,
+    label='Bad',
+    color='red'
+)
+
+plt.title('Pressure Distribution for Good vs Bad Wafers')
+plt.xlabel('Pressure')
+plt.ylabel('Number of Wafers')
+plt.legend()
+print(plt.show())
