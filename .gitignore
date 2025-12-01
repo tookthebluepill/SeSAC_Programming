@@ -1,2 +1,13 @@
+#데이터 파일 무시
 *.csv
 *.pdf
+
+# 빌드 결과물 무시
+bin/
+obj/
+
+# VS Code 설정 무시
+.vscode/
+
+# 기타 시스템 파일 무시
+.DS_Store
