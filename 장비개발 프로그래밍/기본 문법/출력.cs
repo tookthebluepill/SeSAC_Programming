@@ -39,6 +39,16 @@ public class 출력
         Console.WriteLine("안녕하세요"[3]);
         Console.WriteLine("안녕하세요"[100]); //예외 발생
     }
+
+    static void Main44(string[] args)
+    {
+        Console.WriteLine('ナ');
+        Console.WriteLine('リ');
+        Console.WriteLine('タ');
+        Console.WriteLine('A');
+        Console.WriteLine('ㅗ');
+    }
+
 // 문자 덧셈 연산
 // 문자는 + 연산자를 사용해도 연결되지 않음
     static void Main5(string[] args)
@@ -92,22 +102,16 @@ public class 출력
         Console.WriteLine(long.MinValue);
     }
 
-// sizeof 연산자와 char 자료형의 크기
     static void Main12(string[] args)
     {
-        Console.WriteLine("int: " + sizeof(int));
-        Console.WriteLine("long: " + sizeof(long));
-        Console.WriteLine("float: " + sizeof(float));
-        Console.WriteLine("double: " + sizeof(double));
-        Console.WriteLine("char: " + sizeof(char));
+        Console.WriteLine(1.0 + 2.0);
+        Console.WriteLine(1.0 - 2.0);
+        Console.WriteLine(1.0 * 2.0);
+        Console.WriteLine(1.0 / 2.0);
+        Console.WriteLine(7.0/3.0);
+        Console.WriteLine(7.0/3);
+        Console.WriteLine(7/3.0);
+        Console.WriteLine(5.0%2.2);
     }
-// 증감 연산자
-    static void Main(string[] args)
-    {
-        int number = 10;
-        Console.WriteLine(number);
-        Console.WriteLine(number++);
-        Console.WriteLine(number--);
-        Console.WriteLine(number);
-    }
+
 }
