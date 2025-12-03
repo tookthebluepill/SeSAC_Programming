@@ -6,7 +6,7 @@ class 자료형검사
         Console.WriteLine(number);
     }
 // GetType() 메서드를 활용해 자료형을 출력
-        static void Main1(string[] args)
+        static void Main(string[] args)
     {
         int _int = 273;
         long _long = 522731033265;

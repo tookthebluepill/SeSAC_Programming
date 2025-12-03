@@ -26,19 +26,30 @@ public class 출력
 // \t:수평 탭, \\:역슬래시, \n:행 바꿈, \":큰 따옴표
     static void Main3(string[] args)
     {
-        Console.WriteLine("한빛\t아카데미");
-        Console.WriteLine("한빛\n아카데미");
+        Console.WriteLine("다키스트\t던전");
+        Console.WriteLine("다키스트\n던전");
         Console.WriteLine("\"\"\"");
     }
 
-// 문자 선택
-    static void Main4(string[] args)
+// 문자 선택(인덱싱)
+    static void Main31(string[] args)
     {
-        Console.WriteLine("안녕하세요"[0]);
-        Console.WriteLine("안녕하세요"[1]);
-        Console.WriteLine("안녕하세요"[3]);
-        Console.WriteLine("안녕하세요"[100]); //예외 발생
+        Console.WriteLine("제육덮밥"[0]);
+        Console.WriteLine("제육덮밥"[1]);
+        Console.WriteLine("제육덮밥"[3]);
+        Console.WriteLine("제육덮밥"[^1]); //^:끝에서부터 인덱싱
+        Console.WriteLine("제육덮밥"[100]); //예외 발생
     }
+
+// 슬라이싱
+// 범위로 ..을 사용하여 표현한다
+    static void Main32(string[] args)
+    {
+        string s = "Hello World";
+        string slice = s[^8..^5];
+        Console.WriteLine(slice);
+    }
+
 
     static void Main44(string[] args)
     {

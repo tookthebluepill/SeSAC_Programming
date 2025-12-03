@@ -13,7 +13,7 @@ class var변수
 // var 키워드로 사용하려면 다음과 같은 두 가지 조건을 만족해야함
 // 지역 변수로 선언하는 경우
 // 변수를 선언과 동시에 초기화하는 경우
-    static void Main0(string[] args)
+    static void Main1(string[] args)
     {
         var local=273;
     }
