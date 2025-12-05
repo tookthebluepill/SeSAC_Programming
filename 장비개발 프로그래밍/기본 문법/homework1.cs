@@ -1,6 +1,6 @@
 class homework1
 {
-    static void Main(string[] args)
+    static void Main0(string[] args)
     {
         string? input = Console.ReadLine();
         if (string.IsNullOrEmpty(input))
