@@ -1,5 +1,9 @@
 class switch조건문
 {
+// 월을 입력받아 해당 월이 몇일까지인지 출력
+// 1을 입력하면
+// 1월을 31일까지 입니다를 출력
+// switch 문을 사용할것
     static void Main0(String[] args)
     {
         Console.Write("월을 입력하세요: \n1 ~ 12(숫자로만 입력하세요)");
@@ -37,9 +41,27 @@ class switch조건문
             Console.WriteLine($"{month}월은 {days}일까지 입니다.");
         }
     }
+// 키보드 키 입력 구분
+static void Main1(string[] args)
+    {
+        ConsoleKeyInfo info = Console.ReadKey();
+        switch (info.Key)
+        {
+            case ConsoleKey.UpArrow:
+                Console.WriteLine("위쪽으로 이동");
+                break;
+            case ConsoleKey.RightArrow:
+                Console.WriteLine("오른쪽으로 이동");
+                break;
+            case ConsoleKey.DownArrow:
+                Console.WriteLine("아래쪽으로 이동");
+                break;
+            case ConsoleKey.LeftArrow:
+                Console.WriteLine("왼쪽으로 이동");
+                break;
+            default:
+                Console.WriteLine("다른 키를 눌렀습니다");
+                break;
+        }
+    }
 }
-
-// 월을 입력받아 해당 월이 몇일까지인지 출력
-// 1을 입력하면
-// 1월을 31일까지 입니다를 출력
-// switch 문을 사용할것

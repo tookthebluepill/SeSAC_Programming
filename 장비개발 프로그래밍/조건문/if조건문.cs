@@ -1,5 +1,6 @@
 class if조건문
 {
+// 숫자 홀짝 판별
 static void Main0(string[] args)
 {
     Console.Write("숫자 입력:");
@@ -16,4 +17,18 @@ static void Main0(string[] args)
     }
 
 }
+// 입력 받아 조건 분할
+static void Main1(string[] args)
+    {
+        Console.Write("입력: ");
+        String? line = Console.ReadLine();
+        if(line.Contains("안녕"))
+        {
+            Console.WriteLine("안녕하세요...!");
+        }
+        else
+        {
+            Console.WriteLine("^^");
+        }
+    }
 }
