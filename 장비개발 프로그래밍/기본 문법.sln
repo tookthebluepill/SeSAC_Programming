@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "조건문", "조건문\조�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "반복문", "반복문\반복문.csproj", "{CC2C2EDF-287E-4207-B3EF-870B9A38CE61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "응용예제", "응용예제\응용예제.csproj", "{AB24B96E-6B87-4C9C-8A18-5955DE47B1A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{CC2C2EDF-287E-4207-B3EF-870B9A38CE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC2C2EDF-287E-4207-B3EF-870B9A38CE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC2C2EDF-287E-4207-B3EF-870B9A38CE61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB24B96E-6B87-4C9C-8A18-5955DE47B1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB24B96E-6B87-4C9C-8A18-5955DE47B1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB24B96E-6B87-4C9C-8A18-5955DE47B1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB24B96E-6B87-4C9C-8A18-5955DE47B1A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
