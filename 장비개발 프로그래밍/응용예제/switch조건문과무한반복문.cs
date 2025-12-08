@@ -27,7 +27,7 @@ class SwitchWithWhile
 
     // switch 조건문 내부의 break 키워드는 switch 조건문만 벗어남
     // goto 대신 조건을 추가하면 while 반복문까지 벗어남
-    static void Main1(string[] args)
+    static void Main(string[] args)
     {
         bool state = true;
         while (state)
