@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "응용예제", "응용예�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "클래스", "클래스\클래스.csproj", "{4BE50CE3-089B-4287-B723-F0FBC0E7BC77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "메소드", "메소드\메소드.csproj", "{A6D249EC-03BD-40EA-A10D-2F132A583962}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{4BE50CE3-089B-4287-B723-F0FBC0E7BC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BE50CE3-089B-4287-B723-F0FBC0E7BC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BE50CE3-089B-4287-B723-F0FBC0E7BC77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D249EC-03BD-40EA-A10D-2F132A583962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D249EC-03BD-40EA-A10D-2F132A583962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D249EC-03BD-40EA-A10D-2F132A583962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D249EC-03BD-40EA-A10D-2F132A583962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
