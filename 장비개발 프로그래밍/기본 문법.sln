@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "클래스", "클래스\클�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "메소드", "메소드\메소드.csproj", "{A6D249EC-03BD-40EA-A10D-2F132A583962}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "상속과다형성", "상속과다형성\상속과다형성.csproj", "{18AC5065-FCF8-48CA-8319-89D934D6BF46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{A6D249EC-03BD-40EA-A10D-2F132A583962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6D249EC-03BD-40EA-A10D-2F132A583962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6D249EC-03BD-40EA-A10D-2F132A583962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18AC5065-FCF8-48CA-8319-89D934D6BF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AC5065-FCF8-48CA-8319-89D934D6BF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AC5065-FCF8-48CA-8319-89D934D6BF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AC5065-FCF8-48CA-8319-89D934D6BF46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
